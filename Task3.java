@@ -1,14 +1,17 @@
-class Task2{
+class Task3{
     public static void main(String[] args){
 
-      char hello = 'H';
-      int hi = 3110;
-      short W = 1;
-      byte zero = 0;
-      float f = 2.0f;
-      boolean b = true;
+      String a = "Wow";
+      String b= "Wow";
+      String c= "Different";
+      String d= "Wow";
 
-      String output = " " + hello + hi + " " + "w" + zero + "r" + W + "d" + " " + f + " " + b;
-      System.out.println(output);
+      boolean b1 = a == b;
+      boolean b2 = d.equals(b + "!");
+      boolean b3 = !c.equals(a);
+
+      if (b1 && b2 && b3){
+      System.out.println("Success");
+      }
     }
 }
